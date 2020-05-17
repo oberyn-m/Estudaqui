@@ -1,0 +1,543 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"textarea\t element"
+			],
+			[
+				"ce",
+				"center\ttext-align"
+			],
+			[
+				"al",
+				"text-align\tproperty"
+			],
+			[
+				"ma",
+				"main\t<main>"
+			],
+			[
+				"img",
+				"img\tImage - Placeholder"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!doctype html>\n<html>\n\n<head>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, maximum-scale=1\">\n\n\t<title>Sinita XII</title>\n\t<link rel=\"icon\" href=\"favicon-logo.png\" type=\"image/png\">\n\t<link rel=\"shortcut icon\" href=\"favicon-logo.png\" type=\"img/x-icon\">\n\n\t<link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.3.1/css/all.css\" integrity=\"sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU\" crossorigin=\"anonymous\">\n\t<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>\n\t<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>\n\n\t<link href=\"css/bootstrap.css\" rel=\"stylesheet\" type=\"text/css\">\n\t<link href=\"css/style.css\" rel=\"stylesheet\" type=\"text/css\">\n\t<link href=\"css/font-awesome.css\" rel=\"stylesheet\" type=\"text/css\">\n\t<link href=\"css/responsive.css\" rel=\"stylesheet\" type=\"text/css\">\n\t<link href=\"css/magnific-popup.css\" rel=\"stylesheet\" type=\"text/css\">\n\t<link href=\"css/animate.css\" rel=\"stylesheet\" type=\"text/css\">\n\t<link href=\"css/style_calendario.css\" rel=\"stylesheet\" type=\"text/css\" />\n\t\n\t<script type=\"text/javascript\" src=\"js/jquery.1.8.3.min.js\"></script>\n\t<script type=\"text/javascript\" src=\"js/bootstrap.js\"></script>\n\t<script type=\"text/javascript\" src=\"js/jquery-scrolltofixed.js\"></script>\n\t<script type=\"text/javascript\" src=\"js/jquery.easing.1.3.js\"></script>\n\t<script type=\"text/javascript\" src=\"js/jquery.isotope.js\"></script>\n\t<script type=\"text/javascript\" src=\"js/wow.js\"></script>\n\t<script type=\"text/javascript\" src=\"js/classie.js\"></script>\n\t<script type=\"text/javascript\" src=\"js/magnific-popup.js\"></script>\n\t<script src=\"contactform/contactform.js\"></script>\n\t<script type=\"text/javascript\" src=\"js/jquery.js\"></script>\n    <script type=\"text/javascript\" src=\"js/functions.js\"></script>\n\n\t<!-- =======================================================\n    Desenvolvedores: Isaac Matos e Washigthon Só\n\t======================================================= -->\n\n</head>\n\n<body>\n\t<header class=\"header\" id=\"header\">\n\t\t<!-- Cabeçalho Inicio -->\n\t\t<div class=\"container\">\n\t\t\t<figure class=\"logo animated fadeInDown delay-07s\">\n\t\t\t\t<a href=\"\"><img src=\"img/logo-sinita.png\" alt=\"\"></a>\n\t\t\t</figure>\n\t\t\t<h1 class=\"animated fadeInDown delay-07s\">Bem vindos ao SINITA XII</h1>\n\t\t\t<ul class=\"we-create animated fadeInUp delay-1s\">\n\t\t\t\t<li>\"Conhecimento não é aquilo que você sabe, mas o que você faz com aquilo que você sabe.\"</li>\n\t\t\t</ul>\n\t\t\t<a class=\"btn btn-info\" href=\"#service\">Apresentamos</a>\n\t\t</div>\n\t</header>\n\t<!--Cabeçalho Fim -->\n\n\t<nav class=\"main-nav-outer\" id=\"test\">\n\t\t<!--main-nav-start-->\n\t\t<div class=\"container\">\n\t\t\t<ul class=\"main-nav\">\n\t\t\t\t<li><a href=\"#header\">Inicio</a></li>\n\t\t\t\t<li><a href=\"#service\">Sobre</a></li>\n\t\t\t\t<li><a href=\"#Portfolio\">Palestrantes</a></li>\n\t\t\t\t<li class=\"small-logo\"><a href=\"#header\"><img src=\"img/logo-sinita-menu.png\" alt=\"\"></a></li>\n\t\t\t\t<li><a href=\"#client\">Agradecimento</a></li>\n\t\t\t\t<li><a href=\"#ingresso\">Ingressos</a></li>\n\t\t\t\t<li><a href=\"#contact\">Contato</a></li>\n\t\t\t</ul>\n\t\t\t<a class=\"res-nav_click\" href=\"#\"><i class=\"fa fa-bars\"></i></a>\n\t\t</div>\n\t</nav>\n\t<!--main-nav-end-->\n\n\n\n\t<section class=\"main-section\" id=\"service\">\n\t\t<!--main-section-start-->\n\t\t<div class=\"container\">\n\t\t\t<h2>Embarque conosco nesta jornada</h2>\n\t\t\t<br>\n\t\t\t<br>\n\t\t\t<!-- <h6></h6> -->\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-lg-4 col-sm-6 wow fadeInLeft delay-05s\">\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"service-list\">\n\t\t\t\t\t\t<div class=\"service-list-col1\">\n\t\t\t\t\t\t\t<i class=\"fas fa-certificate\"></i>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"service-list-col2\">\n\t\t\t\t\t\t\t<h3>Certificados Online</h3>\n\t\t\t\t\t\t\t<p>Certificados disponibilizados inteiramente de forma online.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"service-list\">\n\t\t\t\t\t\t<div class=\"service-list-col1\">\n\t\t\t\t\t\t\t<i class=\"fas fa-comments\"></i>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"service-list-col2\">\n\t\t\t\t\t\t\t<h3>Interação em tempo real</h3>\n\t\t\t\t\t\t\t<p>Tire suas dúvidas em tempo real.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"service-list\">\n\t\t\t\t\t\t<div class=\"service-list-col1\">\n\t\t\t\t\t\t\t<i class=\"fal fa-id-card\"></i>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"service-list-col2\">\n\t\t\t\t\t\t\t<h3>Palestras</h3>\n\t\t\t\t\t\t\t<p>Acompanhe palestras elaboradas para você.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"service-list\">\n\t\t\t\t\t\t<div class=\"service-list-col1\">\n\t\t\t\t\t\t\t<i class=\"fas fa-code\"></i>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"service-list-col2\">\n\t\t\t\t\t\t\t<h3>Mini Cursos</h3>\n\t\t\t\t\t\t\t<p>Qualifique seu conhecimento de forma rápida e prática.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"service-list\">\n\t\t\t\t\t\t<div class=\"service-list-col1\">\n\t\t\t\t\t\t\t<i class=\"fas fa-shopping-cart\"></i>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"service-list-col2\">\n\t\t\t\t\t\t\t<h3>Pagamento Online</h3>\n\t\t\t\t\t\t\t<p>Pagamentos totalmente online para os inscritos.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<figure class=\"col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s\">\n\t\t\t\t\t<img src=\"img/banner2-pequeno.png\" alt=\"\">\n\t\t\t\t</figure>\n\n\t\t\t</div>\n\t\t</div>\n\t</section>\n\t<!--main-section-end-->\n\n\t<!-- PALESTRANTES -->\n\n\t<section class=\"main-section paddind\" id=\"Portfolio\">\n\t\t\n\t\t<div class=\"container\">\n\t\t\t<h2>Palestrantes</h2>\n\t\t\t<h6>Aqui contém todos nossos convidados.</h6>\n\t\t\t<div class=\"team-leader-block clearfix\">\n\t\t\t\t\n\t\t\t\t<div class=\"team-leader-box\">\n\t\t\t\t\t<div class=\"team-leader wow fadeInDown delay-09s\">\n\t\t\t\t\t\t<div class=\"team-leader-shadow\"><a href=\"#\"></a></div>\n\t\t\t\t\t\t<img src=\"img/palestrantes/360x270/02.jpeg\" alt=\"\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"https://www.facebook.com/gustavoguanabara?ref=br_rs\" class=\"fa fa-facebook\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h3 class=\"wow fadeInDown delay-09s\">Pericles Sobreira</h3>\n\t\t\t\t\t<span class=\"wow fadeInDown delay-09s\">Possui graduação e mestrado em Ciência da Computação pela Universidade Federal de \n\t\t\t\t\t\tPernambuco (UFPE) e doutorado em Ciência da Computação pela Université Grenoble Alpes.</span>\n\t\t\t\t\t<p class=\"wow fadeInDown delay-09s\"></p>\n\t\t\t\t\t<br>\n\t\t\t\t\t<br>\n\t\t\t\t\t<br>\n\t\t\t\t\t<br>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class=\"team-leader-box\">\n\t\t\t\t\t<div class=\"team-leader wow fadeInDown delay-03s\">\n\t\t\t\t\t\t<div class=\"team-leader-shadow\"><a href=\"#\"></a></div>\n\t\t\t\t\t\t<img src=\"img/palestrantes/360x270/02.jpeg\" alt=\"\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"https://www.facebook.com/achillesbfroes?ref=br_rs\" class=\"fa fa-facebook\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h3 class=\"wow fadeInDown delay-03s\">Jauberth Abijaude</h3>\n\t\t\t\t\t<span class=\"wow fadeInDown delay-03s\">Graduado em Matemática pela Universidade Estadual de Santa Cruz, possui mestrado em Redes de \n\t\t\t\t\t\tComputadores pela UNIFACS  e doutorando em Ciência da Computação pela UFBA.</span>\n\t\t\t\t\t<p class=\"wow fadeInDown delay-03s\"></p>\n\t\t\t\t</div>\n\t\t\t\n\t\t\t\t<div class=\"team-leader-box\">\n\t\t\t\t\t<div class=\"team-leader  wow fadeInDown delay-06s\">\n\t\t\t\t\t\t<div class=\"team-leader-shadow\"><a href=\"#\"></a></div>\n\t\t\t\t\t\t<img src=\"img/palestrantes/360x270/03.jpeg\" alt=\"\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"https://www.facebook.com/esbelvalero\" class=\"fa fa-facebook\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h3 class=\"wow fadeInDown delay-06s\">Esbel T. Valero Orell</h3>\n\t\t\t\t\t<span class=\"wow fadeInDown delay-06s\">Professor Titutal UESC. Departamento de Ciências Exatas e Tecnológicas DCET. Programa de Pós-Graduação em Modelagem Computacional em CiÊncia e Tecnologia PPGMC.</span>\n\t\t\t\t\t<p class=\"wow fadeInDown delay-06s\"></p>\n\t\t\t\t</div>\n\t\t\t\n\t\t\t\t<div class=\"team-leader-box\">\n\t\t\t\t\t<div class=\"team-leader  wow fadeInDown delay-09s\">\n\t\t\t\t\t\t<div class=\"team-leader-shadow\"><a href=\"#\"></a></div>\n\t\t\t\t\t\t<img src=img/palestrantes/360x270/04.jpeg alt=\"\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"https://www.facebook.com/Patricksferraz?ref=br_rs\" class=\"fa fa-facebook\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h3 class=\"wow fadeInDown delay-06s\">Patrick Ferraz</h3>\n\t\t\t\t\t<span class=\"wow fadeInDown delay-06s\">Formando do curso de Ciência da Computação na Universidade Estadual de Santa Cruz com enfoque na \n\t\t\t\t\t\tpesquisa para o desenvolvimento da região cacaueira elaborando um software para classificação de \n\t\t\t\t\t\tlotes de cacau através da captura e processamento de imagens de amêndoas.</span>\n\t\t\t\t\t<p class=\"wow fadeInDown delay-06s\"></p>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class=\"team-leader-box\">\n\t\t\t\t\t<div class=\"team-leader  wow fadeInDown delay-03s\">\n\t\t\t\t\t\t<div class=\"team-leader-shadow\"><a href=\"#\"></a></div>\n\t\t\t\t\t\t<img src=img/palestrantes/360x270/05.jpeg alt=\"\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"https://www.facebook.com/marcuscasaesintegrador\" class=\"fa fa-facebook\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h3 class=\"wow fadeInDown delay-06s\">Marcus Casaes</h3>\n\t\t\t\t\t<span class=\"wow fadeInDown delay-06s\">Tecnico em Edificações. Graduando Eng Civil - Ucsal. Especialização em Energias Renováveis - Unicamp. CEO Casaes Automação. Socio Startup Goon Tour. Coordenador do Segmento de Startups da AJE.</span>\n\t\t\t\t\t<p class=\"wow fadeInDown delay-06s\"></p>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class=\"team-leader-box\">\n\t\t\t\t\t<div class=\"team-leader  wow fadeInDown delay-06s\">\n\t\t\t\t\t\t<div class=\"team-leader-shadow\"><a href=\"#\"></a></div>\n\t\t\t\t\t\t<img src=img/palestrantes/360x270/07.jpg alt=\"\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"https://www.facebook.com/guiachcar?ref=br_rs\" class=\"fa fa-facebook\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h3 class=\"wow fadeInDown delay-06s\">Guilherme Janku Achcar</h3>\n\t\t\t\t\t<span class=\"wow fadeInDown delay-06s\">Formado no curso Superior em Tecnologias em Análise de Sistemas no Instituto Federal São Paulo - São Carlos/SP. Sócio na F2Data, empresa de soluções em tecnologia. Profissional com mais de 12 anos experiência sendo 8 deles na IBM. Integrante do Núcleo de Jovens Emrpeendedores. Colaborador do Startup Acirp. Líder do Projeto Plugar/Acirp. Participação como mentor do projeto Startup SP/Sebrar. Organizador de dois Hackathons da Fatec/SJRP.</span>\n\t\t\t\t\t<p class=\"wow fadeInDown delay-06s\"></p>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class=\"team-leader-box\">\n\t\t\t\t\t<div class=\"team-leader  wow fadeInDown delay-06s\">\n\t\t\t\t\t\t<div class=\"team-leader-shadow\"><a href=\"#\"></a></div>\n\t\t\t\t\t\t<img src=\"img/palestrantes/360x270/12.jpg\" alt=\"\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"https://www.facebook.com/guiachcar?ref=br_rs\" class=\"fa fa-facebook\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h3 class=\"wow fadeInDown delay-06s\">Ítalo Ávila</h3>\n\t\t\t\t\t<span class=\"wow fadeInDown delay-06s\">Formado em Comunicação Social pela Universidade Estadual de Santa Cruz e empreendedor desde os 8 anos. Completamente apaixonado pelo mundo digital e as novas possibilidades oferecidas a todo mundo com as novas tecnologias. Além de ser fissurado por RESULTADO! Especialista em Marketing Digital de Conteúdo e Resultados. Muito mais do que números de expressão, mas sim números que convertam.</span>\n\t\t\t\t\t<p class=\"wow fadeInDown delay-06s\"></p>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class=\"team-leader-box\">\n\t\t\t\t\t<div class=\"team-leader  wow fadeInDown delay-06s\">\n\t\t\t\t\t\t<div class=\"team-leader-shadow\"><a href=\"#\"></a></div>\n\t\t\t\t\t\t<img src=\"img/palestrantes/360x270/11.jpg\" alt=\"\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"https://www.facebook.com/guiachcar?ref=br_rs\" class=\"fa fa-facebook\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h3 class=\"wow fadeInDown delay-06s\">Maicley Vieira</h3>\n\t\t\t\t\t<span class=\"wow fadeInDown delay-06s\">Formando em Sistemas de Inforamação, Analista de Suporte Cristal Motors (Grupo Itadil) Analista de Suporte Topázio Veiculos (Grupo Itadil).</span>\n\t\t\t\t\t<p class=\"wow fadeInDown delay-06s\"></p>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t</div>\n\t\t</div>\n\n\t\t\n\t</section>\n\t<!--main-section-end-->\n\t\n\t<!-- PALESTRANTES -->\n\n\t<section class=\"main-section paddind\" id=\"Portfolio2\">\n\t\t\n\t\t<div class=\"container\">\n\t\t\t<h2>Mini Cursos</h2>\n\t\t\t<h6>Aqui contém todos os administradores de Mini Cursos.</h6>\n\t\t\t<div class=\"team-leader-block clearfix\">\n\t\t\t\t\n\t\t\t\t<div class=\"team-leader-box\">\n\t\t\t\t\t<div class=\"team-leader wow fadeInDown delay-09s\">\n\t\t\t\t\t\t<div class=\"team-leader-shadow\"><a href=\"#\"></a></div>\n\t\t\t\t\t\t<img src=\"img/palestrantes/360x270/08.jpg\" alt=\"\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"https://www.facebook.com/DevDiorgeles\" class=\"fa fa-facebook\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h3 class=\"wow fadeInDown delay-09s\">Diorgeles Dias</h3>\n\t\t\t\t\t<span class=\"wow fadeInDown delay-09s\">Curriculo.</span>\n\t\t\t\t\t<p class=\"wow fadeInDown delay-09s\"></p>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class=\"team-leader-box\">\n\t\t\t\t\t<div class=\"team-leader wow fadeInDown delay-03s\">\n\t\t\t\t\t\t<div class=\"team-leader-shadow\"><a href=\"#\"></a></div>\n\t\t\t\t\t\t<img src=\"img/palestrantes/360x270/06.jpg\" alt=\"\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"https://www.facebook.com/alessandroaguiarbrito\" class=\"fa fa-facebook\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h3 class=\"wow fadeInDown delay-03s\">Alessandro Aguiar</h3>\n\t\t\t\t\t<span class=\"wow fadeInDown delay-03s\">Formado em Tecnico de Informatica pelo IFBA - Ilheus. Graduando em Sistemas da Informação pela FTC - Itabuna</span>\n\t\t\t\t\t<p class=\"wow fadeInDown delay-03s\"></p>\n\t\t\t\t</div>\n\t\t\t\n\t\t\t\t<div class=\"team-leader-box\">\n\t\t\t\t\t<div class=\"team-leader  wow fadeInDown delay-06s\">\n\t\t\t\t\t\t<div class=\"team-leader-shadow\"><a href=\"#\"></a></div>\n\t\t\t\t\t\t<img src=\"img/palestrantes/360x270/10.jpg\" alt=\"\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"https://www.facebook.com/maxson.jordan\" class=\"fa fa-facebook\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h3 class=\"wow fadeInDown delay-06s\">Maxson Jordan</h3>\n\t\t\t\t\t<span class=\"wow fadeInDown delay-06s\">Curriculo.</span>\n\t\t\t\t\t<p class=\"wow fadeInDown delay-06s\"></p>\n\t\t\t\t</div>\n\n\t\t\t</div>\n\t\t</div>\n\n\t</section>\t\n\t\n\t<!--main-section-end-->\n\t\n\t<h2>Calendário</h2>\n\t<h6>Dias que ocorrerá evento.</h6>\n\t\n\t<?php\n    include 'conexao.php';\n    include 'calendario.php';\n    $info = array(\n        'tabela' => 'eventos',\n        'data' => 'data',\n        'titulo' => 'titulo',\n        'link' => 'link'\n    );\n\t?>\n\t\n\t <div class=\"calendario\">\n     <?php \n         $eventos = montaEventos($info);\n         montaCalendario($eventos);\n     ?>\n\t\t \n     <div class=\"legends\">\n         <span class=\"legenda\"><span class=\"blue\"></span> Eventos</span>\n         <span class=\"legenda\"><span class=\"red\"></span> Hoje</span>\n     </div>\n    </div>\n\t\n\t<!--SEÇÃO CRIADOR DO PROJETO INICIO -->\n\n\t<section class=\"main-section client-part\" id=\"client\">\n\t\t\n\t\t<div class=\"container\">\n\t\t\t<b class=\"quote-right wow fadeInDown delay-03\"><i class=\"fa fa-quote-right\"></i></b>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-lg-12\">\n\t\t\t\t\t<p class=\"client-part-haead wow fadeInDown delay-05\">Comentário do Professor Fabricio Santana</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<ul class=\"client wow fadeIn delay-05s\">\n\t\t\t\t<li><a href=\"https://professorfabricio.org/\" target=\"_blank\">\n            \t<img src=\"img/pessoas/fabricio-santana.jpg\" alt=\"\">\n                <h3>Fabricio Santana</h3>\n                <span>Criador Do Projeto.</span>\n            </a></li>\n\t\t\t</ul>\n\t\t</div>\n\t</section>\n\t\n\t<!--SEÇÃO CRIADOR DO PROJETO FIM-->\n\t\n\t<div class=\"c-logo-part\">\n\t\t<!--PATROCINADORES INICIO-->\n\t\t<div class=\"container\">\n\t\t\t<ul>\n\t\t\t\t<li><a href=\"http://site.ftc.edu.br/selecione-uma-unidade/\" target=\"_blank\"><img src=\"img/ftc-logo.jpg\" alt=\"\"></a></li>\n\t\t\t\t<li><a href=\"http://site.ftc.edu.br/selecione-uma-unidade/\" target=\"_blank\"><img src=\"img/ftc-logo.jpg\" alt=\"\"></a></li>\n\t\t\t\t<li><a href=\"http://site.ftc.edu.br/selecione-uma-unidade/\" target=\"_blank\"><img src=\"img/ftc-logo.jpg\" alt=\"\"></a></li>\n\t\t\t\t<li><a href=\"http://site.ftc.edu.br/selecione-uma-unidade/\" target=\"_blank\"><img src=\"img/ftc-logo.jpg\" alt=\"\"></a></li>\n\t\t\t\t<li><a href=\"http://site.ftc.edu.br/selecione-uma-unidade/\" target=\"_blank\"><img src=\"img/ftc-logo.jpg\" alt=\"\"></a></li>\n\t\t\t</ul>\n\t\t</div>\n\t</div>\n\t<!--PATROCINADORES FIM-->\n\t\n\t<section class=\"main-section team\" id=\"team\">\n\t\t<!--main-section team-start-->\n\t\t<div class=\"container\">\n\t\t\t<h2>Colaboradores</h2>\n\t\t\t<h6></h6>\n\t\t\t<div class=\"team-leader-block clearfix\">\n\t\t\t\t\n\t\t\t\t<div class=\"team-leader-box\">\n\t\t\t\t\t<div class=\"team-leader wow fadeInDown delay-09s\">\n\t\t\t\t\t\t<div class=\"team-leader-shadow\"><a href=\"#\"></a></div>\n\t\t\t\t\t\t<img src=\"img/pessoas/anderson-cunha.png\" alt=\"\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\" class=\"fa fa-facebook\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"https://plus.google.com/109233168583329032120\" class=\"fa fa-google-plus\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h3 class=\"wow fadeInDown delay-09s\">Anderson Cunha </h3>\n\t\t\t\t\t<span class=\"wow fadeInDown delay-09s\">Idealizador</span>\n\t\t\t\t\t<p class=\"wow fadeInDown delay-09s\">Frase de exemplo.</p>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class=\"team-leader-box\">\n\t\t\t\t\t<div class=\"team-leader wow fadeInDown delay-03s\">\n\t\t\t\t\t\t<div class=\"team-leader-shadow\"><a href=\"#\"></a></div>\n\t\t\t\t\t\t<img src=\"img/pessoas/isaac-matos.jpg\" alt=\"\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"https://www.facebook.com/Hello.ICM\" class=\"fa fa-facebook\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"https://plus.google.com/u/0/108449043786865948148\" class=\"fa fa-google-plus\" target=\"_blank\"></a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t\t<h3 class=\"wow fadeInDown delay-03s\">Isaac Matos</h3>\n\t\t\t\t\t<span class=\"wow fadeInDown delay-03s\">Desenvolvedor</span>\n\t\t\t\t\t<p class=\"wow fadeInDown delay-03s\">Frase de exemplo.</p>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</section>\n\t<!--main-section team-end-->\n\n\n    <!--business-talking-start-->\n\t<section class=\"business-talking\" id=\"ingresso\">\n\t\t\n\t\t<!-- <div class=\"container\"> -->\n\t\t\t\t\n\t\t\t\t<a class=\"btn btn-info\" href=\"pages/wordpress/index.php\" target=\"_blank\">Comprar Ingresso</a>\n\t\t\t\t<a class=\"btn btn-info\" href=\"pages/Cadastro3/index.php\" target=\"_blank\">Cadastro Participante</a>\n\t\t\t\t<a class=\"btn btn-info\" href=\"pages/Cadastro3/verificacertificado.php\" target=\"_blank\">Verificar Certificado</a>\n\t\t\t\t<!-- <a class=\"btn btn-info\" href=\"https://sinitaitabuna.000webhostapp.com/\" target=\"_blank\">Sugestões</a> -->\n\t\t\t\t\t\n\t\t<!-- </div> --->\t\n\t\t\n    </section>\n\n\t<!--business-talking-end-->\n\t\n\t<div class=\"container\">\n\t\t<section class=\"main-section contact\" id=\"contact\">\n\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-lg-6 col-sm-7 wow fadeInLeft\">\n\t\t\t\t\t<div class=\"contact-info-box address clearfix\">\n\t\t\t\t\t\t<h3><i class=\"fas fa-location-arrow\"></i>Local: <br></h3>\n\t\t\t\t\t\t<span> Praça José Bastos, 55 - Osvaldo Cruz, Itabuna - BA</span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<!-- <div class=\"contact-info-box phone clearfix\">\n\t\t\t\t\t\t<h3><i class=\"fa fa-phone\"></i>Fone:</h3>\n\t\t\t\t\t\t<span>(73) 98258-1380</span>\n\t\t\t\t\t</div> -->\n \t\t\t\t\t<div class=\"contact-info-box email clearfix\">\n\t\t\t\t\t\t<h3><i class=\"fa fa-pencil\"></i>Email:</h3>\n\t\t\t\t\t\t<span>atendimento.sinita@gmail.com</span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"contact-info-box hours clearfix\">\n\t\t\t\t\t\t<h3><i class=\"fa fa-clock-o\"></i> Datas <p>e</p> Horário: </h3>\n\t\t\t\t\t\t<span> <strong>Segunda: </strong> 19:00 ás 22:00 <br> <strong> Terça: </strong> 19:00 ás 22:00 <br> <strong> Quarta: </strong> 19:00 ás 22:00 </span>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<ul class=\"social-link\">\n\t\t\t\t\t\t<li class=\"twitter\"><a href=\"https://twitter.com/ic_matos\" target=\"_blank\"><i class=\"fa fa-twitter\"></i></a></li>\n\t\t\t\t\t\t<li class=\"facebook\"><a href=\"https://www.facebook.com/Hello.ICM\" target=\"_blank\"><i class=\"fa fa-facebook\"></i></a></li>\n\t\t\t\t\t\t<li class=\"gplus\"><a href=\"https://plus.google.com/u/0/108449043786865948148\" target=\"_blank\"><i class=\"fa fa-google-plus\"></i></a></li>\n\t\t\t\t\t\t\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t\t\t<div id=\"feedback\">\n\t\t\t\t\t\t\t<!-- Cabeçalho -->\n\t\t\t\t\t\t\t\t<div class=\"head\">\n\t\t\t\t\t\t\t\t\t<h3>Formulário SINITA</h3>\n\t\t\t\t\t\t\t\t\t<p>Este é o formulário de feedback. Envie-nos seu feedback!</p>\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t<!-- Formulário inicio -->\n\t\t\t\t\t\t\t<form id=\"form\" action=\"#\" method=\"post\">\n\t\t\t\t\t\t\t<input type = \"text\" name=\"vname\" value=\"\" placeholder=\"Seu Nome\"/>\n\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<input type = \"text\" name=\"vemail\" value=\"\" placeholder=\"Seu Email\"/>\n\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<input type = \"text\" name=\"sub\" value=\"\" placeholder=\"Assunto\"/>\n\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<textarea name=\"msg\" placeholder=\"Seu texto aqui...\"></textarea>\n\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<input type=\"submit\" name=\"submit\" id=\"send\" value=\"Envie sua sugestão\"/>\n\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t\t<h3><?php include \"secure_email_code.php\"?></h3> \n\t\t\t\t\t\t</div>\n\n\t\t\t</div> \n\t\t</section>\n\t</div>\t\n\n\t<footer class=\"footer\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"footer-logo\"><a href=\"\"><img src=\"img/logo-sinita.png\" alt=\"\"></a></div>\n\t\t\t<span class=\"copyright\">&copy; ICM Website. Todos Direitos Reservados</span>\n\t\t\t<div class=\"credits\">\n\t\t\t\t<!-- -->\n\t\t\t\tDesigner by <a href=\"https://www.facebook.com/waashso?ref=br_rs\" target=\"_blank\">Washgthion Só</a>\n\t\t\t</div>\n\t\t</div>\n\t</footer>\n\n\n\t<script type=\"text/javascript\">\n\t\t$(document).ready(function(e) {\n\n\t\t\t$('#test').scrollToFixed();\n\t\t\t$('.res-nav_click').click(function() {\n\t\t\t\t$('.main-nav').slideToggle();\n\t\t\t\treturn false\n\n\t\t\t});\n\n      $('.Portfolio-box').magnificPopup({\n        delegate: 'a',\n        type: 'image'\n      });\n\n\t\t});\n\t</script>\n\n\t<script>\n\t\twow = new WOW({\n\t\t\tanimateClass: 'animated',\n\t\t\toffset: 100\n\t\t});\n\t\twow.init();\n\t</script>\n\n\n\t<script type=\"text/javascript\">\n\t\t$(window).load(function() {\n\n\t\t\t$('.main-nav li a, .servicelink').bind('click', function(event) {\n\t\t\t\tvar $anchor = $(this);\n\n\t\t\t\t$('html, body').stop().animate({\n\t\t\t\t\tscrollTop: $($anchor.attr('href')).offset().top - 102\n\t\t\t\t}, 1500, 'easeInOutExpo');\n\t\t\t\t/*\n\t\t\t\tif you don't want to use the easing effects:\n\t\t\t\t$('html, body').stop().animate({\n\t\t\t\t\tscrollTop: $($anchor.attr('href')).offset().top\n\t\t\t\t}, 1000);\n\t\t\t\t*/\n\t\t\t\tif ($(window).width() < 768) {\n\t\t\t\t\t$('.main-nav').hide();\n\t\t\t\t}\n\t\t\t\tevent.preventDefault();\n\t\t\t});\n\t\t})\n\t</script>\n\n\t<script type=\"text/javascript\">\n\t\t$(window).load(function() {\n\n\n\t\t\tvar $container = $('.portfolioContainer'),\n\t\t\t\t$body = $('body'),\n\t\t\t\tcolW = 375,\n\t\t\t\tcolumns = null;\n\n\n\t\t\t$container.isotope({\n\t\t\t\t// disable window resizing\n\t\t\t\tresizable: true,\n\t\t\t\tmasonry: {\n\t\t\t\t\tcolumnWidth: colW\n\t\t\t\t}\n\t\t\t});\n\n\t\t\t$(window).smartresize(function() {\n\t\t\t\t// check if columns has changed\n\t\t\t\tvar currentColumns = Math.floor(($body.width() - 30) / colW);\n\t\t\t\tif (currentColumns !== columns) {\n\t\t\t\t\t// set new column count\n\t\t\t\t\tcolumns = currentColumns;\n\t\t\t\t\t// apply width to container manually, then trigger relayout\n\t\t\t\t\t$container.width(columns * colW)\n\t\t\t\t\t\t.isotope('reLayout');\n\t\t\t\t}\n\n\t\t\t}).smartresize(); // trigger resize to set container width\n\t\t\t$('.portfolioFilter a').click(function() {\n\t\t\t\t$('.portfolioFilter .current').removeClass('current');\n\t\t\t\t$(this).addClass('current');\n\n\t\t\t\tvar selector = $(this).attr('data-filter');\n\t\t\t\t$container.isotope({\n\n\t\t\t\t\tfilter: selector,\n\t\t\t\t});\n\t\t\t\treturn false;\n\t\t\t});\n\n\t\t});\n\t</script>\n\n</body>\n\n</html>\n",
+			"file": "/C/wamp64/www/Sinita/index.php",
+			"file_size": 23569,
+			"file_write_time": 131852120051766964,
+			"settings":
+			{
+				"buffer_size": 22851,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 141.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"placeholder",
+				"Snippet: table - Placeholder"
+			],
+			[
+				"placehold",
+				"Snippet: dl - Placeholder"
+			],
+			[
+				"sniptab",
+				"Snippet: <table>"
+			],
+			[
+				"snipptform",
+				"Snippet: <form>"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/calendário1"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/calendário1/css/estilo.css",
+		"/C/wamp64/www/calendário1/index.html",
+		"/C/wamp64/www/calendário1/css/estilo",
+		"/C/wamp64/www/Sinita/pages/Cadastro3/css/estilo.css",
+		"/C/wamp64/www/Sinita/pages/Cadastro3/sair.php",
+		"/C/wamp64/www/Sinita/pages/Cadastro3/areaprivada.php",
+		"/C/wamp64/www/Sinita/pages/Cadastro3/cadastrar.php",
+		"/C/wamp64/www/Sinita/pages/Cadastro3/index.php",
+		"/C/wamp64/www/Sinita/css/style.css",
+		"/C/wamp64/www/Sinita/index.php",
+		"/C/wamp64/www/Certificados/index.php",
+		"/C/wamp64/www/Certificados/css/estilo.css",
+		"/C/wamp64/www/Cadastro2/script_banco_de_dados.sql",
+		"/C/wamp64/www/Certificados/index.html",
+		"/C/wamp64/www/Pagseguro API (Fácil)/index.html",
+		"/C/wamp64/www/Compras/carrinho.php",
+		"/C/wamp64/www/Compras/carrinho.html",
+		"/C/wamp64/www/Compras/index.html",
+		"/C/wamp64/www/Carrinho de Compras - 2/index.html",
+		"/C/wamp64/www/Carrinho de Compras - 2/carrinho.html",
+		"/C/wamp64/www/Sinita/pages/carrinho.html",
+		"/C/wamp64/www/Sinita/index1.html",
+		"/C/wamp64/www/Carrinho de Compras - 4/config.sql",
+		"/C/wamp64/www/Sinita/cadastro/action_cliente.php",
+		"/C/wamp64/www/Formulário PHP - JS/Informação.txt",
+		"/C/wamp64/www/Formulário PHP - JS/index.php",
+		"/C/wamp64/www/Cadastro/clientes.SQL",
+		"/C/wamp64/www/Estudaqui/index.html",
+		"/C/wamp64/www/Estudaqui/css/style.css",
+		"/C/Users/odlsk/Desktop/CoreSync_x64.dll",
+		"/C/wamp64/www/Estudaqui/index.php"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"animat",
+			"animateded",
+			"fade",
+			"text-align:center;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/wamp64/www/Sinita/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22851,
+						"regions":
+						{
+							"col_0000FFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										14314,
+										14318
+									]
+								],
+								"scope": "col_0000FFFF"
+							},
+							"col_0000FFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_0000FFFF_circle.png",
+								"regions":
+								[
+									[
+										14270,
+										14270
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FF0000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										14387,
+										14390
+									]
+								],
+								"scope": "col_FF0000FF"
+							},
+							"col_FF0000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FF0000FF_circle.png",
+								"regions":
+								[
+									[
+										14343,
+										14343
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								290,
+								290
+							]
+						],
+						"settings":
+						{
+							"SL.20.region_keys":
+							[
+							],
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										238,
+										239
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										224,
+										225
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										286,
+										290
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										286,
+										290
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 173.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
